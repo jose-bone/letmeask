@@ -2,12 +2,13 @@ import { Button } from "./components/Button";
 
 function App() {
   return (
-    <div>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-    </div>
+    <BrowserRouter>
+      <AuthContextProvider>
+        <Route path="/" exact component={Home} />
+        <Route path="/rooms/new" exact component={NewRoom} />
+        <Route path="/rooms/:id" component={Room} />
+      </AuthContextProvider>
+    </BrowserRouter>
   );
 }
 
