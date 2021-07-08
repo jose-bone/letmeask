@@ -2,5 +2,6 @@
   "cSpell.language": "en-GB,pt-PT,en",
   "cSpell.words": [
     "Quelimane"
-  ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
