@@ -5,7 +5,7 @@
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
   
-  <img src="https://img.shields.io/github/forks/jose-bone/letmeask?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">     
+  <img src="https://img.shields.io/github/forks/jose-bone/letmeask?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">
 
   <img src="https://img.shields.io/github/stars/jose-bone/letmeask?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
 </p>
@@ -34,6 +34,7 @@ $ cd letmeask
 ```
 
 Follow the steps below:
+
 ```bash
 # Install the dependencies
 $ yarn
@@ -41,20 +42,22 @@ $ yarn
 # Start the project
 $ yarn start
 ```
-The app will be available for access on your browser at http://localhost:3000
+
+The app will be available for access on your browser at http://localhost:3000.
+
+Remembering that it will be necessary to create an account in [Firebase](https://firebase.google.com/) and a project to make a Realtime Database available.
 
 ## 🔖 Layout
 
 You can view the project layout through the links below:
 
-- [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
+- [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate)
 
 Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
 
 ---
 
